@@ -2,10 +2,10 @@ const http = require('http');
 
 
 // Read the host address and the port from the environment
-const hostname = process.env.HOST;
-const port = process.env.PORT;
-//const hostname = '127.0.0.1';
-//const port = 3011;
+//const hostname = process.env.HOST;
+//const port = process.env.PORT;
+const hostname = '127.0.0.1';
+const port = 1111;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
